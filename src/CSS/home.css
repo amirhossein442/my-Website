@@ -1,0 +1,122 @@
+.form{
+  margin-top: 70px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 400px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 20px rgba(52, 46, 46, 0.509);
+}
+.form input{
+  margin-top: 20px;
+  width: 230px;
+  height: 30px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 0, 0, 0.76);
+  border-radius: 20px;
+  border-top: none;
+  color: #ff0000;
+} 
+.form input:focus{
+  outline: none;
+  border: 2px solid red;
+  border-top: none;
+}
+.form button{
+  margin-top: 20px;
+  width: 100px;
+  height: 30px;
+  border: #ff0000;
+  background-color: #ff0000;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color .2s;
+}
+.form button:hover{
+  background-color: #57bfc3;
+}
+.form h3{
+  font-size: 22px;
+}
+
+.content-home{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content h1 {
+  margin-bottom: 0;
+  font-family: Arial;
+  font-size: 50px;
+}
+.content span{
+  color: red;
+}
+.content h3{
+  margin-top: 0;
+  font-family: Arial;
+  font-size: 37px;
+  margin-bottom: 10px;
+}
+
+.content p{
+  margin-bottom: 18px;
+  font-family: Arial, Helvetica;
+  line-height: 23px;
+}
+
+.social-icons{
+  display: flex;
+  margin-bottom: 10px;
+    
+}
+
+.social-icons a{
+  align-items: stretch;
+  color: red;
+  font-size: 20px;
+  margin-left: 10px;
+  border: 1px solid red;
+  border-radius :60%;
+  padding: 5px;
+  padding-top: 10px;
+  transition: 0.4s ease;
+}
+
+.logo-facebook{
+  font-size: 100px;
+  margin-left: 0 !important;
+}
+
+.social-icons a:hover{
+  color: #fff;
+  background-color: red;
+}
+
+.content .btnn{
+  color: #ff0000;
+  margin-top: 10px;
+  text-decoration: none;
+  float: left;
+  border: 1px solid red;
+  padding: 5px 20px 5px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.4s ease;
+}
+
+.content .btnn:hover{
+  background-color:red;
+  color: #fff;
+
+}
