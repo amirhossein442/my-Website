@@ -1,0 +1,177 @@
+
+/*skills*/
+.contentSkills{
+  line-height: 55px;
+}
+.contentSkills h1{
+  margin-left: 30px;
+}
+.contentSkills ul{
+  margin-left: 40px;
+  width: 700px;
+  font-size: 35px;
+}
+.backHomeSk{
+  position: absolute;
+  bottom: -155px;
+  left: 10px;
+  border-color: red;
+  border-radius: 5px;
+  padding: 5px;
+}
+.backHomeSk:hover{
+  background-color: red;
+  color: #fff;
+}
+
+
+
+/*service*/
+.contentService{
+  line-height: 55px;  
+}
+.contentService h1{
+  margin-left: 10px;
+}
+.contentService ul{
+  margin-left: 40px;
+  width: 700px;
+  font-size: 35px;
+}
+.backHomeS{
+  position: absolute;
+  bottom: -235px;
+  left: 10px;
+  border-color: red;
+  border-radius: 5px;
+  padding: 5px;
+}
+.backHomeS:hover{
+  background-color: red;
+  color: #fff;
+}
+
+
+
+/*Education */
+.contentEducation{
+  margin-left: 40px;
+  width: 700px;
+  font-size: 35px;
+}
+.backHomeEd{
+  position: absolute;
+  bottom: -290px;
+  left: 10px;
+  border-color: red;
+  border-radius: 5px;
+  padding: 5px;
+}
+.backHomeEd:hover{
+   background-color: red;
+  color: #fff;
+}
+
+
+/*Exprience */
+.contentExprience{
+  line-height: 55px;
+  margin-left: 40px;
+  width: 700px;
+  font-size: 30px;
+}
+.backHomeE{
+  position: absolute;
+  left:10px;
+  bottom: -80px;
+  border-color: red;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+}
+.backHomeE:hover{
+  background-color: red;
+  color: #fff;
+}
+
+
+/*Contact */
+
+.body {
+  position: relative;
+  
+  height: 85vh;
+}
+
+.contentContact {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+}
+.contentContact table tr, td{
+  padding: 30px;
+}
+
+.contentContact table th{
+  padding: 10px;
+}
+
+.contentContact table {
+  border-color: red;
+} 
+
+.social-iconsContact{
+  margin-top: 30px;
+  width: 500px;
+}
+
+.social-iconsContact a{
+  color: red;
+  font-size: 30px;
+  margin-left: 10px;
+  border: 1px solid red;
+  border-radius :60%;
+  padding: 5px;
+  padding-top: 10px;
+  transition: 0.4s ease;
+}
+
+.social-iconsContact a:hover{
+  color: #fff;
+  background-color: red;
+}
+
+.btn{
+  margin-bottom: 0;
+  display: flex;
+  text-decoration: none;
+  color: red;
+  float: left;
+  border: 1px solid red;
+  padding: 5px 20px 5px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.4s ease;
+}
+
+.btn:hover{
+  background-color: red;
+  color: #fff;
+}
+
+.backHomeC{
+  border-color: red;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  bottom: -95px;
+  left: -355px;
+}
+.backHomeC:hover{
+  background-color: red;
+  color: #fff;
+}
+
+
