@@ -1,2 +1,2 @@
 
-![تصویر](/image/my-Web.JPG)
+![تصویر](/public/image/my-Web.JPG)
